@@ -54,5 +54,24 @@ https://devdocs.prestashop-project.org/8/basics/installation/environments/docker
 
 ---
 5. E iniciamos os contenedores con: `docker compose up -d` e miramos se nos vai no navegador.
-   
+
+![prestashop_web.png](..%2F..%2FPictures%2FScreenshots%2Fprestashop_web.png)
+
+---
+6. Procedemos a intalar o Prestashop.
+
+---
+7. Fallo na intalación e aqui quedo esta parte:
+![prestashop_fallo.png](..%2F..%2FPictures%2FScreenshots%2Fprestashop_fallo.png)
+
+--- 
+8. Creamos a base de datos e rellenamos os datos:
+
+![nuevaBD.png](..%2F..%2FPictures%2FScreenshots%2FnuevaBD.png)
+
+------
+![MySQL_creacion.png](..%2F..%2FPictures%2FScreenshots%2FMySQL_creacion.png)
+
+--------
+![BD_creada.png](..%2F..%2FPictures%2FScreenshots%2FBD_creada.png)
 
