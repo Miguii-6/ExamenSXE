@@ -11,17 +11,17 @@ services:
       - prestashop_network
   prestashop:
     container_name: prestashop
-    image: prestashop/prestashop:latest # Latest stable version of the PrestaShop, to see all available images go to ...
+    image: prestashop/prestashop:latest
     restart: unless-stopped
     depends_on:
       - mysql
     ports:
       - 8080:80
     environment:
-      DB_SERVER: some-mysql
+      DB_SERVER: mysql
       DB_NAME: prestashop
       DB_USER: root
-      DB_PASSWD: admin
+      DB_PASSWD: 1234
     networks:
       - prestashop_network
 networks:
