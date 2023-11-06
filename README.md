@@ -50,6 +50,9 @@ https://devdocs.prestashop-project.org/8/basics/installation/environments/docker
    
 ---
 
-4. E acabamos definindo a network ao ter creados os contenedores.
+4. Definimos a network ao ter creados os contenedores.
+
+---
+5. E iniciamos os contenedores con: `docker compose up -d` e miramos se nos vai no navegador.
    
 
